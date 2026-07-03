@@ -7,7 +7,7 @@ By leveraging the **Retrieval-Augmented Generation (RAG)** pattern, this agent g
 ---
 
 ## 🌟 Key Architecture Features
-This project is engineered as a **modular blueprint** designed for developers and software engineers looking to present advanced AI agent patterns in their portfolios.
+This project is engineered as a **modular blueprint**, featuring:
 
 *   **Pluggable LLM Providers**: Toggle between native **Google Gemini API** (using its massive 2,000,000 token context window and free tier) and any **OpenAI-Compatible Endpoint** (supporting **DeepSeek API**, **OpenRouter**, or fully offline local **Ollama** models like Llama 3 or Qwen 2.5).
 *   **Flexible Vector Storage**: Abstracts the database layer to easily toggle between **Local ChromaDB** (zero-configuration local SQL-backed indexing) and **Cloud Pinecone DB** (persistent, growing index synced online across multiple devices).
